@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora peso ideal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Peso Ideal</h1>
+        <!-- <input type="text" name="sexo" id="sexo" class="sexo" placeholder="Sexo">
+        <span>1-Masc. / 0-Fem.</span> -->
+        <select name="sexo" id="sexo">
+            <option disabled selected>Selecionar sexo</option>
+            <option value="1" id="opcao-sexo" >Masculino</option>
+            <option value="0" id="opcao-sexo">Feminino</option>
+        </select>
+        <br>
+        <input type="text" name="altura" id="altura" class="altura" placeholder="Digitar altura">
+        <span>Em metros (Ex: 1.55)</span>
+        <br>
+        <input type="button" value="Calcular" class="btn" id="btn">
+        <br>
+        <div id="res"></div>
+    </div>
+
+    <!-- <footer class="rodape">
+        <p>Desenvolvido por <strong>Wllysses Tavares</strong></p>
+    </footer> -->
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
